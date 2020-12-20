@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins, Montserrat, sans-sarif;
+	background-color: #315653;
+	background-image: url(wave.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.wrapper{
+	text-align: center;
+	padding: 50px 0;
+	
+}
+.wrapper li{
+	text-decoration: none;
+	list-style-type: none;
+	padding: 1.4%;
+	
+
+}
+.wrapper li a{
+	color: #f8fefe;
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 3px;
+	line-height: 35px;
+	text-decoration: none;
+}
+span{
+	padding-top: 35px; 
+}
+span a{
+	color: #f8fefe;
+	margin-top: 80px;
+	font-weight: bold;
+	font-size: 25px;
+	border: 2px solid #f8fefe;
+	border-radius: 20px;
+	padding: 5px 70px;
+	width: 50px;
+	text-decoration: none;
+
+}
+.wrapper li a:hover{
+	color: #315653;
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing: 1px;
+	background-color: #f8fefe;
+	text-decoration: none;
+	border: none;
+	border-radius: 50%;
+	padding: 40px;}
+
+span a:hover{
+
+	color: #315653;
+	background-color: #f8fefe;
+	border: 2px solid #315653;
+	border-radius: 20px;
+	/*padding: 5px 70px;
+	width: 50px;
+	text-decoration: none;*/
+
+}
+
+}
